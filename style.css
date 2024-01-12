@@ -1,0 +1,122 @@
+/*
+Theme Name: ElectroemeTheme
+Theme URI: http://localhost/electroeme/themes/electroemetheme/
+Author: Sofiane Mouadeb
+Author URI: http://localhost/electroeme
+Description: Developper par Sofiane Mouadeb.
+Version: 0.1
+Tags: simple, facile, sans danger, base pour la suite
+*/
+
+
+
+link{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px; /* Ajustez les valeurs de padding selon vos besoins */
+}
+
+footer {
+    background-color: #D8BFD8;
+    color: white;
+}
+
+footer a{
+    color: #232222;
+    background-color: #D8BFD8;
+}
+
+.menu {
+    text-decoration: none;
+    width: auto;
+    color: black;
+    display: inline;
+    margin-right: 20px;
+}
+
+header {
+    background-color: white;
+    color: black;
+    text-align: center;
+
+}
+
+/* Mettez les éléments du header en ligne côte à côte */
+header h1, header h2, header nav, header li {
+    display: inline-block;
+    margin: 0 20px; /* Marge horizontale entre les éléments du header (ajustez selon vos besoins) */
+}
+
+
+ul, ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+/* Style du bouton "Se connecter" */
+.menu-item-31 a{
+    background-color: #DEA966;
+    color: black;
+    border-radius: 38px;
+    padding: 10px;
+}
+.menu-item-31 {
+    background-color: #DEA966;
+    color: black;
+    border-radius: 38px;
+    padding: 10px;
+}
+
+/* Styles généraux pour le footer */
+footer {
+    background-color: #D8BFD8; /* Couleur de fond du footer */
+    color: #000; /* Couleur du texte du footer */
+    padding: 20px; /* Espacement intérieur du footer */
+    text-align: center; /* Alignement du texte au centre */
+}
+
+/* Styles pour le menu du footer */
+footer nav {
+    margin-top: 10px; /* Espacement supérieur du menu */
+}
+
+footer ul {
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le rembourrage de la liste */
+}
+
+footer li {
+    display: inline-block; /* Affiche les éléments de la liste en ligne */
+    margin-right: 10px; /* Espacement entre les éléments de la liste */
+}
+
+footer a {
+    color: #000; /* Couleur du texte des liens */
+    text-decoration: none; /* Supprime la soulignement des liens */
+    font-weight: bold; /* Ajoute une épaisseur au texte des liens */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Ajoute une soulignement lors du survol des liens */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-5 {
+    width: 48%;
+}
