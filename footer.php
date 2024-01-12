@@ -31,16 +31,11 @@
   <p class="brbr"></p>
 
   <div class="container1">
-    <div class="row1">
-      <div class="col-md-5">
-        <?php
-
-        wp_footer();
-        wp_nav_menu ( array (
-            'footer' => 'Menu footer'
-        ) ); ?>
-      </div>
-    </div>
+    <?php
+      wp_footer();
+      wp_nav_menu ( array (
+       'footer' => 'Menu footer'
+      ) ); ?>
   </div>
 </footer>
 <style>
@@ -90,16 +85,9 @@
     }
 
     .container1 {
-    margin: 0 auto;
-    }
-
-    .row1 {
-    display: flex;
-    justify-content: space-between;
-    }
-
-    .col-md-5 {
-    width: 100%;
+      display: flex;
+      justify-content: space-between;
+      justify-content: center;
     }
 
     a{

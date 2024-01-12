@@ -342,7 +342,7 @@
         font-family: 'Poppins', sans-serif;
     }
     .img_boussole {
-        width: 100%;
+        width: 99.6%;
         height: auto;
     }
 </style>

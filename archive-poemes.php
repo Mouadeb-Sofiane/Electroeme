@@ -103,7 +103,7 @@ get_header();
 <style>
     .img_boussole {
         /* Your existing styles for the image */
-        width: 100%;
+        width: 99.6%;
         height: auto;
     }
 

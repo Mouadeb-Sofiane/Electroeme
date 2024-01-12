@@ -1,5 +1,5 @@
 <?php  get_header (); 
-/*template name: contacter*/?>
+/*template name: conditons*/?>
 <?php 
 if ( have_posts() ) {
     while ( have_posts() ) {

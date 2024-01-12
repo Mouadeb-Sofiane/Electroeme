@@ -563,7 +563,7 @@
         margin-top: 5%;
     }
     .img_boussole {
-        width: 100%;
+        width: 99.6%;
         height: auto;
     }
 </style>

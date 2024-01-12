@@ -5,7 +5,7 @@ Template Name: Apprendre Leçon
 acf_form_head();
 get_header(); ?>
 <p class="br1"></p>
-<div class="image-container1">
+        <div class="image-container1">
             <img class="img_boussole" src="<?php echo get_template_directory_uri() . '/img/img-banniere.png'; ?>" alt="Image qui montre que l'on est dans la section poème" />
             <div class="image-text">Leçons</div>
         </div>
@@ -117,7 +117,7 @@ get_header(); ?>
     
     .img_boussole {
         /* Your existing styles for the image */
-        width: 100%;
+        width: 99.6%;
         height: auto;
     }
 
