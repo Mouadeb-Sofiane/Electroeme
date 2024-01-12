@@ -15,7 +15,7 @@
     <h2>A propos</h2>
     <ul class="thin">
       <li><a class="thin" href="https://electroeme.com/page-a-propos/">Page à propos</a></li>
-      <li><a class="thin" href="#">Nous contacter</a></li>
+      <li><a class="thin" href="https://electroeme.com/nous-contacter/">Nous contacter</a></li>
       <li><a class="thin" href="https://electroeme.com/nous-soutenir/">Nous soutenir</a></li>
     </ul>
   </div>
