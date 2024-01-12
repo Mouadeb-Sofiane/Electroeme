@@ -28,10 +28,12 @@ if (have_posts()) {
             <article class="card">
                 <a href="<?php the_permalink(); ?>">
                     <div class="card-content" style="background-color: #f2f2f2;">
-                        <?php if (get_field('image_de_correspondance')) : ?>
-                            <?php $image_url = get_field('image_de_correspondance'); ?>
-                            <img class="card-image" src="<?php echo $image_url; ?>" alt="Image mise en avant pour le poème" />
-                        <?php endif; ?>
+                    <?php
+                        $image = get_field('image_de_correspondance');
+                        if ($image) {
+                            echo '<img class="card-image" src="' . esc_url($image['url']) . '" alt="Image mise en avant pour les leçons" />';
+                        }
+                        ?>
                           <h2 class="card-title"><?php the_title(); ?></h2>
                           <h3 class="card-author lireplus-link">
                             <?php
