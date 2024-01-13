@@ -9,21 +9,13 @@
           <h1 class="image_text"><?php the_title(); ?></h1>
         </div>
         <h2 class="title1"><?php the_field("titre_de_la_lecon"); ?></h2>
-        
-        <div class="img_correspondance">
-              <?php
-                $image_id = get_field('image_de_correspondance'); // Récupérez l'ID de l'image à partir du champ ACF
 
-                // Vérifiez si l'ID de l'image est disponible
-                if ($image_id) {
-                    // Obtenez l'URL de l'image en fonction de l'ID
-                    $image_url = wp_get_attachment_url($image_id);
-                    
-                    // Affichez l'image
-                    echo '<img src="' . esc_url($image_url) . '" alt="Image de correspondance">';
-                }
-                ?>
-        </div>
+        <div class="img_correspondance">
+                <?php if (get_field('image_de_correspondance')) : ?>
+                    <?php $image_url = get_field('image_de_correspondance'); ?>
+                    <img class="img14" src="<?php echo $image_url; ?>" alt="Image d'une plume." />
+                <?php endif; ?>
+            </div>
           <h2 class="title"><?php the_field("Premier_titre"); ?></h2>
             <div class="div_paragraphe">
               <div class="para"><?php the_field("premier_paragraphe"); ?></div>
@@ -341,6 +333,10 @@
 <?php get_footer(); ?>
 
 <style>
+  .img14 {
+    width: 100%;
+    height: auto;
+  }
     .container {
       display: flex;
       flex-wrap: wrap;
@@ -513,7 +509,7 @@
     }
 
     .paragraphe   {
-    width: 50%;
+    width: 40%;
     margin-left: 11%;
     }
 
@@ -524,7 +520,7 @@
     }
 
     .exemple {
-    width: 30%;
+    width: 40%;
     }
     .img2 {
     width: 8%;

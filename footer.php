@@ -5,7 +5,7 @@
   <div class="section">
     <h2>Electroeme</h2>
     <ul class="thin">
-      <li><a class="thin" href="https://electroeme.com/nous-soutenir/">Poèmes</a></li>
+      <li><a class="thin" href="https://electroeme.com/poemes/">Poèmes</a></li>
       <li><a class="thin" href="https://electroeme.com/apprendre/">Leçons</a></li>
       <li><a class="thin" href="https://electroeme.com/community/">Forum</a></li>
     </ul>
