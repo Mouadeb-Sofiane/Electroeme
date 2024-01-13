@@ -60,6 +60,7 @@
 
     .main-nav ul li a {
         text-decoration: none;
+        
         color: #FFFFFF;
     }
 </style>
