@@ -37,7 +37,7 @@ get_header(); ?>
         font-family: 'Sansita', sans-serif;
     }
     .connexion {
-        margin-left: 80%;
+        margin-left: 60%;
         margin-right: 10%;
         margin-top: 5%;
         margin-bottom: 5%;
