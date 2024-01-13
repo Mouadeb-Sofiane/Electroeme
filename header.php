@@ -12,53 +12,55 @@
     <?php wp_head(); ?>
   </head>
   <body>        
-    <div class="wrap">
-        <header>
-            <div class="header-top">
-                <div>
-                    <a href="<?php echo home_url(); ?>">
-                        <img src="<?php bloginfo('template_url'); ?>/icon/logo.svg" alt="Logo" class="logo">
-                    </a>
-                </div>
-                <div class="menu">    
-                    <?php wp_nav_menu( 
-                        array( 
-                            'theme_location' => 'header-menu' ,
-                            ) 
-                        ); 
-                    ?>
-                </div>
+  <div class="wrap">
+    <header>
+        <div class="header-top">
+            <div>
+                <a href="<?php echo home_url(); ?>">
+                    <img src="<?php bloginfo('template_url'); ?>/icon/logo.svg" alt="Logo" class="logo">
+                </a>
             </div>
-        </header>
-    </div>  
+            <div class="menu">    
+                <?php wp_nav_menu( 
+                    array( 
+                        'theme_location' => 'header-menu' ,
+                        ) 
+                    ); 
+                ?>
+            </div>
+        </div>
+    </header>
+</div>
 
-    <style>
-  .logo {
-    width: 60px;
-    margin-
-  }
-  .header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
-    font-size: 16px;
-  }
+<style>
+    .logo {
+        width: 60px;
+    }
 
-  .menu{
-   display: flex;
-   list-style: none;
-}
-  .main-nav ul {
-    display: flex;
-    list-style: none;
-  }
-  .main-nav ul li {
-    margin-left: 20px;
-  }
-  .main-nav ul li a {
-    text-decoration: none;
-    color: #FFFFFF;
-    padding: 0 45px; // Add spacing between menu items
-  }
-    </style>
+    .header-top {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+    }
+
+    .menu {
+        display: flex;
+        list-style: none;
+    }
+
+    .main-nav ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .main-nav ul li {
+        margin-left: 30px; /* Augmente la marge à gauche */
+        margin-right: 30px; /* Augmente la marge à droite */
+    }
+
+    .main-nav ul li a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+</style>
+
