@@ -119,7 +119,7 @@ get_header();
     }
 
     .br1 {
-        margin-bottom: 35px;
+        margin-bottom: 45px;
     }
     .h2 {
         margin-left: 5%;
