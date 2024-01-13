@@ -62,7 +62,7 @@ get_header();
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <article class="card">
-                <div class="card-content"">
+                <div class="card-content">
                     <?php if (get_field('images')) : ?>
                         <?php $image_url = get_field('images'); ?>
                         <img class="card-image" src="<?php echo $image_url; ?>" alt="Image mise en avant pour le poème" style="<?php echo $image_url_style; ?>" />
