@@ -286,7 +286,7 @@
             ?>
             <article class="card">
                 <a href="<?php the_permalink(); ?>">
-                    <div class="card-content" style="background-color: #f2f2f2;">
+                    <div class="card-content">
                         <?php if (get_field('image_de_correspondance')) : ?>
                             <?php $image_url = get_field('image_de_correspondance'); ?>
                             <img class="card-image" src="<?php echo $image_url; ?>" alt="Image mise en avant pour le poème" />
@@ -333,6 +333,18 @@
 <?php get_footer(); ?>
 
 <style>
+    h1 {
+      font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+      font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+      font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+      font-family: 'Sansita', sans-serif;
+    }
   .img14 {
     width: 100%;
     height: auto;
@@ -375,6 +387,7 @@
       position: relative;
       overflow: hidden;
       border: 2px solid #D8BFD8;
+      background-color: #fff;
     }
 
     .card-image {

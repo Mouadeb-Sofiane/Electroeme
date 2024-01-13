@@ -27,7 +27,7 @@ if (have_posts()) {
             ?>
             <article class="card">
                 <a href="<?php the_permalink(); ?>">
-                    <div class="card-content" style="background-color: #f2f2f2;">
+                    <div class="card-content">
                         <?php if (get_field('image_de_correspondance')) : ?>
                             <?php $image = get_field('image_de_correspondance'); ?>
                             <img class="card-image" src="<?php echo $image; ?>" alt="Image mise en avant pour le poème" />
@@ -88,7 +88,7 @@ if (have_posts()) {
             ?>
             <article class="card">
                 <a href="<?php the_permalink(); ?>">
-                    <div class="card-content" style="background-color: #f2f2f2;">
+                    <div class="card-content">
                         <?php if (get_field('images')) : ?>
                             <?php $image_url = get_field('images'); ?>
                             <img class="card-image" src="<?php echo $image_url; ?>" alt="Image mise en avant pour le poème" />
@@ -116,13 +116,13 @@ if (have_posts()) {
         <h2 class="h2">Electroeme compte sur vous</h2>
     </div>
     <div class="donation-container">
-        <img src="<?php echo get_template_directory_uri() . '/img/text_donnation_accueil.png'; ?>" alt="#" class="img-donation">
+        <img src="<?php echo get_template_directory_uri() . '/img/text_donnation_accueil.png'; ?>" alt="image de don" class="img-donation">
         <div class="donation">
             <button class="btn-don"><a href="https://electroeme.com/nous-soutenir/">Je fais un don</a></button>
         </div>
     </div>
     <div style="display: flex; align-items: center;">
-        <img src="<?php echo get_template_directory_uri() . '/img/anca-dorneanu.png'; ?>" alt="#" class="img_anca">
+        <img src="<?php echo get_template_directory_uri() . '/img/anca-dorneanu.png'; ?>" alt="image de anca dorneanu" class="img_anca">
 
         <div class="rectangle">
             <p style="text: bold;"><strong>Vous avez des questions, des difficultés ? Contactez-nous par e-mail :</p>
@@ -150,15 +150,11 @@ if (have_posts()) {
         margin-bottom: 5%;
     }
     .btn-don {
-        padding: 25px 40px;
+        padding: 15px 20px;
         font-size: 22px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
-    .btn-ensavoirplus {
-        padding: 25px 40px;
-        font-size: 22px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+
     .img_anca {
         width: 32%;
         height: auto;
@@ -427,6 +423,7 @@ if (have_posts()) {
         position: relative;
         overflow: hidden;
         border: 2px solid #D8BFD8;
+        background-color: #fff;
     }
 
     .card-image {
@@ -559,6 +556,19 @@ if (have_posts()) {
         justify-content: space-evenly;
         gap: 30px;
         margin-bottom: 5%;
+    }
+
+    h1 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+        font-family: 'Sansita', sans-serif;
     }
 </style>
 

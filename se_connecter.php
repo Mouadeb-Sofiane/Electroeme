@@ -16,7 +16,7 @@ get_header();
 <div class="background-container">
     <div class="ravi">
         <h1>Ravi de vous revoir !</h1>
-        <img class="logo1" src="<?php echo get_template_directory_uri() . './img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section poème" />
+        <img class="logo1" src="<?php echo get_template_directory_uri() . './img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section se connecter" />
     </div>
     <div class="connexion">
         <?php 
@@ -73,6 +73,18 @@ get_header();
     .logo1{
         width: 100px;
         margin-right: 45%;
+    }
+    h1 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+        font-family: 'Sansita', sans-serif;
     }
     
 </style>

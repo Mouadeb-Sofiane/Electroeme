@@ -27,5 +27,16 @@ get_header(); ?>
         padding: 0;
         box-sizing: border-box;
     }
-    
+    h1 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+        font-family: 'Sansita', sans-serif;
+    }
 </style>

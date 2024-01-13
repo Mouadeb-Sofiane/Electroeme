@@ -62,7 +62,7 @@ get_header();
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
             <article class="card">
-                <div class="card-content" style="background-color: #f2f2f2;">
+                <div class="card-content"">
                     <?php if (get_field('images')) : ?>
                         <?php $image_url = get_field('images'); ?>
                         <img class="card-image" src="<?php echo $image_url; ?>" alt="Image mise en avant pour le poème" style="<?php echo $image_url_style; ?>" />
@@ -220,6 +220,7 @@ get_header();
         position: relative;
         overflow: hidden;
         border: 2px solid #D8BFD8;
+        background-color: #fff;
     }
 
     .card-image {
@@ -343,6 +344,18 @@ get_header();
         border: none;
         border-radius: 4px;
         cursor: pointer;
+    }
+    h1 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+        font-family: 'Sansita', sans-serif;
     }
 </style>
 <script>

@@ -22,4 +22,16 @@ if ( have_posts() ) {
     body {
         font-family: 'Poppins', sans-serif;        
     }
+    h1 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h2 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h3 {
+        font-family: 'Sansita', sans-serif;
+    }
+    h4 {
+        font-family: 'Sansita', sans-serif;
+    }
 </style>
