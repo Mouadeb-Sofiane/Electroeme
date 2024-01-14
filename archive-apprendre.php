@@ -15,7 +15,7 @@ get_header(); ?>
     <div class="img-container">
         <div class="image-container1">
             <img class="img_boussole" src="<?php echo get_template_directory_uri() . '/img/img-banniere.png'; ?>" alt="Image qui montre que l'on est dans la section poème" />
-            <div class="image-text">Poèmes</div>
+            <div class="image-text">Leçons</div>
         </div>
     </div>
 
