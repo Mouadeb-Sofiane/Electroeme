@@ -12,8 +12,8 @@ get_header(); ?>
 <p class="br1"></p>
 <div class="background-container">
     <div class="ravi">
-        <img class="logo1" src="<?php echo get_template_directory_uri() . './img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section s'inscrire "/>
-        <h1>Bienvenue sur Electroeme !</h1>
+        <img src="<?php echo get_template_directory_uri() . '/img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section s'inscrire" class="logo1">
+        <h1>Bienvenue sur Electroeme</h1>
     </div>
     <div class="connexion">
         <?php 

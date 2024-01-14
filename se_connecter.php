@@ -16,7 +16,7 @@ get_header();
 <div class="background-container">
     <div class="ravi">
         <h1>Ravi de vous revoir !</h1>
-        <img class="logo1" src="<?php echo get_template_directory_uri() . './img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section se connecter" />
+        <img src="<?php echo get_template_directory_uri() . '/img/logo.png'; ?>" alt="Image qui montre que l'on est dans la section se connecter" class="logo1">
     </div>
     <div class="connexion">
         <?php 
