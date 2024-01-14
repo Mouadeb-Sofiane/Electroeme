@@ -12,10 +12,12 @@ function add_meta_description()
 acf_form_head();
 get_header(); ?>
 <p class="br1"></p>
+    <div class="img-container">
         <div class="image-container1">
             <img class="img_boussole" src="<?php echo get_template_directory_uri() . '/img/img-banniere.png'; ?>" alt="Image qui montre que l'on est dans la section poème" />
-            <div class="image-text">Leçons</div>
+            <div class="image-text">Poèmes</div>
         </div>
+    </div>
 
         
         <div class="color">
@@ -321,6 +323,9 @@ get_header(); ?>
     .champ3,
     .champ4 {
         width: 38%; /* Ajustez la largeur selon vos besoins */
+    }
+    .img-container {
+        position: relative;
     }
 
     button {
