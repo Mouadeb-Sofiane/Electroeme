@@ -1,6 +1,13 @@
 <?php 
 /* template name: s_inscrire */
+function add_meta_description()
+{
+?>
+<meta name="description" content="Inscrivez-vous dès maintenant pour rejoindre notre communauté. Profitez d'avantages exclusifs et créez votre compte en quelques étapes simples.">
+<?php
+}
 
+add_action('wp_head', 'add_meta_description');
 get_header(); ?>
 <p class="br1"></p>
 <div class="background-container">

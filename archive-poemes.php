@@ -2,6 +2,12 @@
 /*
 Template Name: poemes1 
 */
+function add_meta_description()
+{
+?>
+<meta name="description" content="Explorez notre collection variée de poèmes. De l'inspiration à la créativité, plongez dans un monde de vers et de rimes. Découvrez la beauté de l'expression poétique sur notre site.">
+<?php
+}
 acf_form_head();
 get_header();
 ?>

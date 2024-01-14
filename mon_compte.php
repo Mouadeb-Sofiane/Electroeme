@@ -1,7 +1,15 @@
 <?php 
 /* template name: moncompte */
+get_header(); 
 
-get_header(); ?>
+function add_meta_description()
+{
+?>
+<meta name="description" content="Accédez à votre espace personnel. Gérez vos informations, vos commandes et profitez de fonctionnalités personnalisées. Connectez-vous pour une expérience sur mesure.">
+<?php
+}
+?>
+
 <p class="br1"></p>
 
     <?php 

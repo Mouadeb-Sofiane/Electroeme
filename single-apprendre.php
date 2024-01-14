@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php get_header(); 
+function add_meta_description()
+{
+?>
+<meta name="description" content="Découvrez une leçon captivante sur notre site éducatif. Explorez les concepts clés, renforcez vos connaissances et préparez-vous de manière efficace. Enrichissez votre apprentissage dès maintenant!">
+<?php
+}
+?>
 <p class="br1"></p>
 <?php if (have_posts()) : ?>
   <?php while (have_posts()) : the_post(); ?>

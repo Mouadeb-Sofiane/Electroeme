@@ -4,7 +4,7 @@
 function add_meta_description()
 {
 ?>
-<meta name="description" content="Se connecter">
+<meta name="description" content="Connectez-vous à notre site et accédez à votre compte en toute sécurité. Profitez d'une expérience utilisateur fluide et sécurisée.">
 <?php
 }
 

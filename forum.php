@@ -1,5 +1,12 @@
 <?php
 /* template name: forums */
+function add_meta_description()
+{
+?>
+<meta name="description" content="Rejoignez notre forum et engagez-vous dans des conversations stimulantes. Partagez vos idées, posez des questions et connectez-vous avec une communauté passionnée de poètes et d'étudiants préparant leurs examens.">
+<?php
+}
+
 get_header();
 ?>
 

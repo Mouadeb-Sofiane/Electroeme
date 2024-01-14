@@ -2,6 +2,13 @@
 /*
 Template Name: Apprendre Leçon
 */
+function add_meta_description()
+{
+?>
+<meta name="description" content="Parcourez notre collection de leçons captivantes. Des enseignements essentiels pour les élèves de 3e (Brevet) et de 1re (Bac). Explorez, apprenez et préparez-vous au succès académique sur notre plateforme éducative.
+">
+<?php
+}
 acf_form_head();
 get_header(); ?>
 <p class="br1"></p>
@@ -59,7 +66,9 @@ get_header(); ?>
 </div>
 
 <p class="br"></p>
-
+<div>
+    <h2 class="h2">Toutes les leçons</h2>
+</div>
 <div class="container">
     <?php if (have_posts()) : ?>
         <?php while (have_posts()) : the_post(); ?>
@@ -131,7 +140,6 @@ get_header(); ?>
         font-weight: bold;
         /* Add any other styles you need for the text */
     }
-
     .br1 {
         margin-bottom: 35px;
     }

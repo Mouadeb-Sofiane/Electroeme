@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php get_header(); 
+function add_meta_description()
+{
+?>
+<meta name="description" content="Utilisez notre fonction de recherche pour trouver rapidement des poèmes, leçons et discussions. Explorez notre contenu riche et trouvez l'inspiration en un instant sur notre site dédié à l'éducation et à la créativité.">
+<?php
+}
+?>
     <div>
         <h1><?php single_cat_title(); ?></h1>
     </div>

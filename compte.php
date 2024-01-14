@@ -1,6 +1,11 @@
 <?php 
 /* template name: compte */
-
+function add_meta_description()
+{
+?>
+<meta name="description" content="Accédez à votre espace personnel. Gérez vos informations, vos commandes et profitez de fonctionnalités personnalisées. Connectez-vous pour une expérience sur mesure.">
+<?php
+}
 get_header(); ?>
 
 <?php 

@@ -1,5 +1,13 @@
-<?php  get_header (); 
-/*template name: politique*/?>
+<?php  
+/*template name: politique*/
+function add_meta_description()
+{
+?>
+<meta name="description" content="Consultez notre politique de confidentialité pour comprendre comment nous traitons vos données. Garantie de protection des informations personnelles et respect de la vie privée.">
+<?php
+}
+get_header (); 
+?>
 <?php 
 if ( have_posts() ) {
     while ( have_posts() ) {

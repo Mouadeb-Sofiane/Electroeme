@@ -3,6 +3,13 @@
 
 get_header();
 
+function add_meta_description()
+{
+?>
+<meta name="description" content="Explorez l'art de la poésie et préparez-vous aux examens avec notre site dédié aux élèves de 3e (Brevet) et de 1re (Bac). Créez des poèmes inspirants et accédez à des leçons enrichissantes. Cultivons ensemble la passion pour la littérature!">
+<?php
+}
+
 if (have_posts()) {
     the_post();
     the_content();

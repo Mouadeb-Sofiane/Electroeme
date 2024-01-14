@@ -1,4 +1,11 @@
-<?php get_header(); ?>
+<?php get_header(); 
+function add_meta_description()
+{
+?>
+<meta name="description" content="Explorez un poème unique sur notre site. Plongez dans l'émotion, la créativité et la beauté des mots. Découvrez l'art de l'expression poétique et laissez-vous inspirer par cette œuvre exceptionnelle.">
+<?php
+}
+?>
  
 <?php if (have_posts()) : ?>
   <?php while (have_posts()) : the_post(); ?>

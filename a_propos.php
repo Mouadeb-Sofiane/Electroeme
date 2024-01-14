@@ -1,5 +1,15 @@
 <?php get_header(); 
-/* template name: a_propos */?>
+/* template name: a_propos */
+
+
+function add_meta_description()
+{
+?>
+<meta name="description" content="Découvrez qui nous sommes et notre engagement. Apprenez-en plus sur notre histoire, nos valeurs et notre vision. Rejoignez-nous dans notre parcours!">
+<?php
+}
+?>
+
 <?php 
 if ( have_posts() ) {
     while ( have_posts() ) {
