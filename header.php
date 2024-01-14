@@ -41,6 +41,7 @@
         display: flex;
         justify-content: space-between;
         font-size: 16px;
+        align-items: center;
     }
 
     .menu {
